@@ -1,0 +1,68 @@
+{
+  "classification": "synthetic-independent-not-game-outputs",
+  "checks_passed": 4,
+  "units": {
+    "base": 100,
+    "inc_percentage_points": [
+      20,
+      30
+    ],
+    "more_factors": [
+      1.2,
+      0.9
+    ],
+    "result": "162.000"
+  },
+  "synergy": {
+    "graph": {
+      "g": [
+        "x",
+        "y"
+      ],
+      "x": [
+        "g"
+      ],
+      "y": [
+        "g"
+      ]
+    },
+    "budget": 2,
+    "objective": "10 iff x and y are both selected; otherwise 0",
+    "candidates_enumerated": 4,
+    "greedy_policy": "accept only strictly positive single-node immediate gains",
+    "greedy_nodes": [],
+    "greedy_value": 0,
+    "exact_nodes": [
+      "x",
+      "y"
+    ],
+    "exact_value": 10
+  },
+  "shared_path": {
+    "paths": [
+      [
+        "a",
+        "x"
+      ],
+      [
+        "a",
+        "y"
+      ]
+    ],
+    "separate_cost": 4,
+    "union": [
+      "a",
+      "x",
+      "y"
+    ],
+    "union_cost": 3
+  },
+  "metric_direction": {
+    "metric": "delay",
+    "direction": "minimize",
+    "a": 5,
+    "b": 4,
+    "raw_delta_b_minus_a": -1,
+    "oriented_improvement": 1
+  }
+}

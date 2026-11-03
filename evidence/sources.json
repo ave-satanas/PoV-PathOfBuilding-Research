@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "captured_utc": "2026-11-03T01:30:09.786195+00:00",
+  "repository": "https://github.com/PathOfBuildingCommunity/PathOfBuilding",
+  "branch_observed": "dev",
+  "commit": "3dbca4463c0a59079d9f7f032d8240cf868e09da",
+  "method": "static source inspection; no upstream code executed",
+  "sources": [
+    {
+      "id": "S01",
+      "path": "README.md",
+      "symbol_or_anchor": "### Features",
+      "line": 9,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/README.md#L9",
+      "purpose": "Project feature overview",
+      "sha256": "1ef4feda1a5420259b821240abf44d209f8108859a846dcac2bd8ee17fcbfa2a",
+      "bytes": 3754
+    },
+    {
+      "id": "S02",
+      "path": "src/Modules/Calcs.lua",
+      "symbol_or_anchor": "function calcs.getMiscCalculator(build)",
+      "line": 89,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Modules/Calcs.lua#L89",
+      "purpose": "Baseline and override evaluation",
+      "sha256": "6d11bd454525a3cfeaea3b8a45d25fa73775bf9ea238c5e682f14acfea78d05e",
+      "bytes": 38473
+    },
+    {
+      "id": "S03",
+      "path": "src/Modules/CalcSetup.lua",
+      "symbol_or_anchor": "function calcs.initEnv(build, mode, override, specEnv)",
+      "line": 487,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Modules/CalcSetup.lua#L487",
+      "purpose": "Calculation environment and overrides",
+      "sha256": "857e784daab451bdaffaff47d1bb975264cba45f78dc9c2e5714f269b666dc96",
+      "bytes": 94728
+    },
+    {
+      "id": "S04",
+      "path": "src/Classes/CalcsTab.lua",
+      "symbol_or_anchor": "function CalcsTabClass:PowerBuilder()",
+      "line": 496,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/CalcsTab.lua#L496",
+      "purpose": "Node, mastery, path and removal power",
+      "sha256": "7d9c37d98f705e124f3dd12e2e18bae871dd4d23de8905e25c8eced4a60999b4",
+      "bytes": 28929
+    },
+    {
+      "id": "S05",
+      "path": "src/Classes/TreeTab.lua",
+      "symbol_or_anchor": "function TreeTabClass:BuildPowerReportList(currentStat)",
+      "line": 1060,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/TreeTab.lua#L1060",
+      "purpose": "Path-normalized power report",
+      "sha256": "9305220d3846843d75e5e314dcdc7bce5829d3d5efa06ffab6eba6d478986ec6",
+      "bytes": 129087
+    },
+    {
+      "id": "S06",
+      "path": "src/Classes/PowerReportListControl.lua",
+      "symbol_or_anchor": "function PowerReportListClass:PowerReportListControl",
+      "line": 14,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/PowerReportListControl.lua#L14",
+      "purpose": "Power report columns and filters",
+      "sha256": "de2f888bcee0ab1e3ba8522d12160c45b479c6248919c14d741036d100143c0d",
+      "bytes": 4491
+    },
+    {
+      "id": "S07",
+      "path": "src/Classes/TradeQueryGenerator.lua",
+      "symbol_or_anchor": "function TradeQueryGeneratorClass.WeightedRatioOutputs",
+      "line": 164,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/TradeQueryGenerator.lua#L164",
+      "purpose": "Weighted local output ratios and mod screening",
+      "sha256": "9cfcf34c03094c0f2277751ff36c62f777f37e2c04c197f42392564a6a46bde3",
+      "bytes": 64146
+    },
+    {
+      "id": "S08",
+      "path": "src/Classes/ModDB.lua",
+      "symbol_or_anchor": "function ModDBClass:TabulateInternal",
+      "line": 278,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/ModDB.lua#L278",
+      "purpose": "Values paired with modifier provenance",
+      "sha256": "52fea6d015357ea034fd3fc9474b08ff571e312487c0002fdf48462e4e72a674",
+      "bytes": 11328
+    },
+    {
+      "id": "S09",
+      "path": "src/Classes/ModStore.lua",
+      "symbol_or_anchor": "function ModStoreClass:ModStore(parent)",
+      "line": 40,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/ModStore.lua#L40",
+      "purpose": "Shared modifier store and actor/condition state",
+      "sha256": "1dd88d509031f941776e453c740b98c8609092bbbb94d72938d725ba6d8942dd",
+      "bytes": 31205
+    },
+    {
+      "id": "S10",
+      "path": "src/Modules/CalcBreakdown.lua",
+      "symbol_or_anchor": "function breakdown.simple",
+      "line": 44,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Modules/CalcBreakdown.lua#L44",
+      "purpose": "Formula and slot breakdowns",
+      "sha256": "b6dd4d9c1f2cec7067e137039096a3e8ae847c4cef6eea8791bbab2d535e1c13",
+      "bytes": 10294
+    },
+    {
+      "id": "S11",
+      "path": "docs/modSyntax.md",
+      "symbol_or_anchor": "### ModType",
+      "line": 9,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/docs/modSyntax.md#L9",
+      "purpose": "Modifier types, flags, sources and tags",
+      "sha256": "f331e39352fc92314b0259ed46a1bd669420c47239d66351bed112fe9e28518d",
+      "bytes": 7711
+    },
+    {
+      "id": "S12",
+      "path": "docs/addingMods.md",
+      "symbol_or_anchor": "ModParser",
+      "line": 1,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/docs/addingMods.md#L1",
+      "purpose": "Text parsing, cached mods and unsupported text",
+      "sha256": "5830501ba0439c2d87e1965780f91cb8f9660df5697e5629816faab83387f246",
+      "bytes": 7704
+    },
+    {
+      "id": "S13",
+      "path": "src/Classes/ConfigTab.lua",
+      "symbol_or_anchor": "function ConfigTabClass:Load(xml, fileName)",
+      "line": 839,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/ConfigTab.lua#L839",
+      "purpose": "Saved configuration sets",
+      "sha256": "7ffcce207e43ce931aab293b2050966a41a8535b4bf4638403b5eb74641edc36",
+      "bytes": 49333
+    },
+    {
+      "id": "S14",
+      "path": "src/Modules/ConfigOptions.lua",
+      "symbol_or_anchor": "conditionMoving",
+      "line": 171,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Modules/ConfigOptions.lua#L171",
+      "purpose": "Named player and enemy assumptions",
+      "sha256": "1ae5d4c5143195c2aa16eb5a94a5d38aabdd6bd47e55217e3ddfe00db903301c",
+      "bytes": 253176
+    },
+    {
+      "id": "S15",
+      "path": "src/Modules/Build.lua",
+      "symbol_or_anchor": "self.savers = {",
+      "line": 629,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Modules/Build.lua#L629",
+      "purpose": "Build sections, versions and deferred tree loading",
+      "sha256": "ad6ea92d7980becff41d5e4426ee32ea8e09b3f25fb8ac5c980c9defe4ccaf73",
+      "bytes": 95643
+    },
+    {
+      "id": "S16",
+      "path": "src/HeadlessWrapper.lua",
+      "symbol_or_anchor": "function loadBuildFromXML",
+      "line": 60,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/HeadlessWrapper.lua#L60",
+      "purpose": "Headless application setup and build loaders",
+      "sha256": "76a7119f6673944516d2d5254efc0262b93a9de3eb64422000058e1b0555d718",
+      "bytes": 2496
+    },
+    {
+      "id": "S17",
+      "path": ".busted",
+      "symbol_or_anchor": "exclude-tags",
+      "line": 11,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/.busted#L11",
+      "purpose": "Default headless test selection",
+      "sha256": "1346c09741fc4f1ce217d839de06c59e62c153a7340c060599303f6c20cb8919",
+      "bytes": 528
+    },
+    {
+      "id": "S18",
+      "path": ".github/workflows/test.yml",
+      "symbol_or_anchor": "busted --lua=luajit",
+      "line": 16,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/.github/workflows/test.yml#L16",
+      "purpose": "Tests and regenerated modifier-cache check",
+      "sha256": "d55a9eb2eae082185253177755dd09129796efaf4087dd1959c0cc3c6a752905",
+      "bytes": 1009
+    },
+    {
+      "id": "S19",
+      "path": "spec/System/TestBuilds_spec.lua",
+      "symbol_or_anchor": "expose(\"test all builds #builds\"",
+      "line": 18,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/spec/System/TestBuilds_spec.lua#L18",
+      "purpose": "Stored build-output regression loader",
+      "sha256": "859958b3b61dced58efe66c4bdaca29defc25659969db296dc797bc8780f273e",
+      "bytes": 1212
+    },
+    {
+      "id": "S20",
+      "path": "spec/System/TestOffence_spec.lua",
+      "symbol_or_anchor": "Cooldown Recovery Rate",
+      "line": 29,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/spec/System/TestOffence_spec.lua#L29",
+      "purpose": "Interaction tests for skill rate limits",
+      "sha256": "e6d704e1cc07831b0c576d747e6211c61e79fd25a8ebe8e0670c76b166d4fbc6",
+      "bytes": 17511
+    },
+    {
+      "id": "S21",
+      "path": "spec/System/TestRadiusJewelStatDiff_spec.lua",
+      "symbol_or_anchor": "Thread of Hope removal comparison",
+      "line": 409,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/spec/System/TestRadiusJewelStatDiff_spec.lua#L409",
+      "purpose": "Jewel access dependency comparisons",
+      "sha256": "d2fe0a1dac30a33572d6d8a00b23f2a5b382d22fdb7b49749b2f142f929b97a6",
+      "bytes": 22077
+    },
+    {
+      "id": "S22",
+      "path": "src/Classes/CompareTab.lua",
+      "symbol_or_anchor": "function CompareTabClass:ComparePowerBuilder",
+      "line": 2516,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/CompareTab.lua#L2516",
+      "purpose": "Category-based build-element comparisons",
+      "sha256": "004a21d5fcbf6137834b9578e95a5ac5ea201b9e7c1359586449722a0fca3006",
+      "bytes": 206399
+    },
+    {
+      "id": "S23",
+      "path": "src/Modules/CalcTools.lua",
+      "symbol_or_anchor": "function calcLib.mod(modStore, cfg, ...)",
+      "line": 16,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Modules/CalcTools.lua#L16",
+      "purpose": "Explicit percentage arithmetic",
+      "sha256": "3274c92b284990e36ffa59f652281d2e44487b2ac6ec800f8f6fd250dfac5dac",
+      "bytes": 12947
+    },
+    {
+      "id": "S24",
+      "path": "LICENSE.md",
+      "symbol_or_anchor": "Copyright (c) 2016 David Gowor",
+      "line": 5,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/LICENSE.md#L5",
+      "purpose": "Project and bundled-component notices",
+      "sha256": "d5e0e888aaf923e4a1e85078f2ae24602baa79d883a359c3ed928354a57bd0db",
+      "bytes": 64256
+    },
+    {
+      "id": "S25",
+      "path": "docs/rundown.md",
+      "symbol_or_anchor": "Layout",
+      "line": 3,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/docs/rundown.md#L3",
+      "purpose": "Navigation guide; implementation takes precedence",
+      "sha256": "36bf7a536b4395698448a46dc1ef14e537c40b7469d31dce29683d749c1f8783",
+      "bytes": 9636
+    },
+    {
+      "id": "S26",
+      "path": "src/Classes/SkillsTab.lua",
+      "symbol_or_anchor": "Optimise Sockets",
+      "line": 256,
+      "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/3dbca4463c0a59079d9f7f032d8240cf868e09da/src/Classes/SkillsTab.lua#L256",
+      "purpose": "Example specialized optimizer",
+      "sha256": "b5d2b152b604e891d2d518afe174dbb84deb5b0d74b437c909dc7bdcfaa157b2",
+      "bytes": 65597
+    }
+  ]
+}

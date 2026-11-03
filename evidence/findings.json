@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "pob_commit": "3dbca4463c0a59079d9f7f032d8240cf868e09da",
+  "findings": [
+    {
+      "id": "P01",
+      "disposition": "adopt-pattern",
+      "priority": "high",
+      "title": "Source-aware calculation explanations",
+      "source_ids": [
+        "S08",
+        "S10",
+        "S11"
+      ],
+      "valheiman_targets": [
+        "stats.py",
+        "character.py"
+      ],
+      "next_action": "Emit selected-metric provenance and omitted-effect reasons.",
+      "limitation": "No copied game formulas; do not replace existing verified stat assembly.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P02",
+      "disposition": "adopt-pattern",
+      "priority": "high",
+      "title": "Persist explicit scenario assumptions",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "valheiman_targets": [
+        "evaluate.py",
+        "future build manifest"
+      ],
+      "next_action": "Start with one supported scenario and context identity.",
+      "limitation": "Configured state is not evidence of actual uptime.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P03",
+      "disposition": "adopt-pattern",
+      "priority": "high",
+      "title": "Keep full build state separate from passive code",
+      "source_ids": [
+        "S15"
+      ],
+      "valheiman_targets": [
+        "buildcode.py",
+        "future build manifest"
+      ],
+      "next_action": "Preserve native POV1 plus versioned supported gear/skill/scenario state.",
+      "limitation": "PoB XML is not compatible with POV1 or a proposed Valheiman manifest.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P04",
+      "disposition": "adopt-pattern",
+      "priority": "high",
+      "title": "Evaluate complete path packages and choices",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "valheiman_targets": [
+        "evaluate.py",
+        "passives.py"
+      ],
+      "next_action": "Show total delta, incremental cost and per-point change after legality checks.",
+      "limitation": "Local path impact is not a global optimum; overlapping paths require union accounting.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P05",
+      "disposition": "defer-until-items",
+      "priority": "medium",
+      "title": "Use local weights only for screening",
+      "source_ids": [
+        "S07",
+        "S22"
+      ],
+      "valheiman_targets": [
+        "future item evaluator"
+      ],
+      "next_action": "Shortlist item/affix candidates, then fully recalculate finalists.",
+      "limitation": "Synergies, caps and trade-offs make marginal weights context-dependent.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P06",
+      "disposition": "adopt-test-pattern",
+      "priority": "high",
+      "title": "Build and interaction regression fixtures",
+      "source_ids": [
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "valheiman_targets": [
+        "tests",
+        "native probes",
+        "mutation gate"
+      ],
+      "next_action": "Add explicit complete-input fixtures and generated-report/data checks.",
+      "limitation": "Saved expected outputs are regression evidence, not an independent game oracle.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P07",
+      "disposition": "research-mechanics-first",
+      "priority": "high",
+      "title": "Access-changing jewel dependencies",
+      "source_ids": [
+        "S03",
+        "S15",
+        "S21"
+      ],
+      "valheiman_targets": [
+        "passives.py",
+        "validate.py",
+        "future jewel model"
+      ],
+      "next_action": "Trace native access grants and add removal/replacement tests.",
+      "limitation": "PoE jewel mechanics cannot establish Dunin legality.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P08",
+      "disposition": "defer-until-profiled",
+      "priority": "medium",
+      "title": "Memoization and bounded background work",
+      "source_ids": [
+        "S02",
+        "S04"
+      ],
+      "valheiman_targets": [
+        "future search engine"
+      ],
+      "next_action": "Test cold/warm equivalence and context invalidation before caching.",
+      "limitation": "Never reuse by mod identity alone across different contexts.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P09",
+      "disposition": "do-not-integrate-by-default",
+      "priority": "high",
+      "title": "Reference architecture is preferable to a runtime bridge",
+      "source_ids": [
+        "S16",
+        "S03",
+        "S23"
+      ],
+      "valheiman_targets": [
+        "existing Python engine"
+      ],
+      "next_action": "Adapt focused ideas; retain Valheiman formulas and units.",
+      "limitation": "The headless wrapper still loads the PoB application and PoE data model.",
+      "status": "research-proposal-not-implemented"
+    },
+    {
+      "id": "P10",
+      "disposition": "reuse-notice",
+      "priority": "when-copying-code",
+      "title": "Preserve source notices when actually reusing implementation",
+      "source_ids": [
+        "S24"
+      ],
+      "valheiman_targets": [
+        "future copied or ported files"
+      ],
+      "next_action": "Record upstream revision and retain applicable notices.",
+      "limitation": "Top-level source notice does not establish rights to every game asset.",
+      "status": "research-proposal-not-implemented"
+    }
+  ]
+}
